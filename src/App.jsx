@@ -1,6 +1,7 @@
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import cardsData from "./data/cards.json";
+import CardGrid from "./components/CardGrid";
+import "./styles/App.css";
 
 function shuffleArray(array) {
   const shuffledArray = [...array];
@@ -11,8 +12,19 @@ function shuffleArray(array) {
   return shuffledArray;
 }
 
-import "./App.css";
 function App() {
-  return <div></div>;
+  const [cards, setCards] = useState([]);
+
+  useEffect(() => {
+    const shuffled = shuffleArray(cardsData);
+    setCards(shuffled);
+  }, []);
+
+  return (
+    <div className="app">
+      <CardGrid cards={cards} />
+    </div>
+  );
 }
+
 export default App;

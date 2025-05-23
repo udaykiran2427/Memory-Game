@@ -1,12 +1,12 @@
 [
-  { "id": 1, "name": "Windrunners", "image": "/Orders/Windrunners.svg" },
-  { "id": 2, "name": "Skybreakers", "image": "/Orders/Skybreakers.svg" },
-  { "id": 3, "name": "Dustbringers", "image": "/Orders/Dustbringers.svg" },
-  { "id": 4, "name": "Edgedancers", "image": "/Orders/Edgedancers.svg" },
-  { "id": 5, "name": "Truthwatchers", "image": "/Orders/Truthwatchers.svg" },
-  { "id": 6, "name": "Lightweavers", "image": "/Orders/Lightweavers.svg" },
-  { "id": 7, "name": "Elsecallers", "image": "/Orders/Elsecallers.svg" },
-  { "id": 8, "name": "Willshapers", "image": "/Orders/Willshapers.svg" },
-  { "id": 9, "name": "Stonewards", "image": "/Orders/Stonewards.svg" },
-  { "id": 10, "name": "Bondsmiths", "image": "/Orders/Bondsmiths.svg" }
+  { "id": 1, "name": "Windrunners", "image": "/Windrunners.svg" },
+  { "id": 2, "name": "Skybreakers", "image": "/Skybreakers.svg" },
+  { "id": 3, "name": "Dustbringers", "image": "/Dustbringers.svg" },
+  { "id": 4, "name": "Edgedancers", "image": "/Edgedancers.svg" },
+  { "id": 5, "name": "Truthwatchers", "image": "/Truthwatchers.svg" },
+  { "id": 6, "name": "Lightweavers", "image": "/Lightweavers.svg" },
+  { "id": 7, "name": "Elsecallers", "image": "/Elsecallers.svg" },
+  { "id": 8, "name": "Willshapers", "image": "/Willshapers.svg" },
+  { "id": 9, "name": "Stonewards", "image": "/Stonewards.svg" },
+  { "id": 10, "name": "Bondsmiths", "image": "/Bondsmiths.svg" }
 ]

@@ -1,0 +1,35 @@
+/* In App.css or a global stylesheet */
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem; /* space between cards */
+  padding: 1rem;
+  justify-items: center; /* center cards horizontally in their cells */
+}
+
+.card {
+  width: 150px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.5rem;
+  text-align: center;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.card-name {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
